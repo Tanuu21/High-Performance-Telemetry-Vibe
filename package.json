@@ -1,6 +1,6 @@
 {
-  "name": "github-health-tracker",
-  "version": "0.1.0",
+  "name": "high-performance-telemetry-vibe",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "lucide-react": "^0.400.0",
+    "next": "14.2.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "next": "14.2.3"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "postcss": "^8.4.38",
