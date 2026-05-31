@@ -53,7 +53,7 @@ git-health/
         ├── mockData.js       # Populated repository mock dataset objects
         └── page.jsx          # Comprehensive UI state machine (Tracker, About, Privacy, Feedback)
 
-git clone [https://github.com/your-username/git-health.git](https://github.com/tanuu21/git-health.git)
+(https://github.com/tanuu21/git-health.git)
 cd git-health
 
 npm install
