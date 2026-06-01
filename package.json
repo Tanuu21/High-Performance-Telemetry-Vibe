@@ -1,109 +1,22 @@
-"use client";
-
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-gradient-to-b from-black via-zinc-900 to-black text-white">
-      {/* Navbar */}
-      <nav className="flex justify-between items-center px-8 py-6 border-b border-zinc-800">
-        <h1 className="text-3xl font-bold">GitHire AI</h1>
-
-        <button className="bg-white text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 transition">
-          Login with GitHub
-        </button>
-      </nav>
-
-      {/* Hero */}
-      <section className="max-w-7xl mx-auto text-center py-28 px-6">
-        <div className="inline-block px-4 py-2 rounded-full border border-zinc-700 text-sm mb-6">
-          🚀 AI-Powered Developer Interviews
-        </div>
-
-        <h1 className="text-6xl md:text-7xl font-bold leading-tight">
-          Turn Your GitHub Into
-          <span className="block text-blue-500">
-            Interview Success
-          </span>
-        </h1>
-
-        <p className="text-zinc-400 text-xl max-w-3xl mx-auto mt-8">
-          Connect GitHub, analyze repositories, generate
-          personalized technical interviews, upload resumes,
-          and receive AI-powered feedback.
-        </p>
-
-        <div className="flex justify-center gap-4 mt-10">
-          <button className="bg-white text-black px-8 py-4 rounded-xl font-bold">
-            Get Started
-          </button>
-
-          <button className="border border-zinc-700 px-8 py-4 rounded-xl">
-            Live Demo
-          </button>
-        </div>
-      </section>
-
-      {/* Features */}
-      <section className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 px-6 pb-24">
-
-        <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-3xl">
-          <h3 className="text-2xl font-bold mb-4">
-            GitHub Analysis
-          </h3>
-
-          <p className="text-zinc-400">
-            Scan repositories, commits, README files,
-            technologies and contributions.
-          </p>
-        </div>
-
-        <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-3xl">
-          <h3 className="text-2xl font-bold mb-4">
-            AI Interviews
-          </h3>
-
-          <p className="text-zinc-400">
-            Generate personalized interview questions
-            based on actual projects.
-          </p>
-        </div>
-
-        <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-3xl">
-          <h3 className="text-2xl font-bold mb-4">
-            Resume Review
-          </h3>
-
-          <p className="text-zinc-400">
-            Upload resumes and receive
-            AI-powered improvement suggestions.
-          </p>
-        </div>
-
-      </section>
-
-      {/* Stats */}
-      <section className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-6 pb-24">
-
-        <div className="text-center">
-          <h2 className="text-4xl font-bold">10K+</h2>
-          <p className="text-zinc-500">Questions Generated</p>
-        </div>
-
-        <div className="text-center">
-          <h2 className="text-4xl font-bold">5K+</h2>
-          <p className="text-zinc-500">Developers</p>
-        </div>
-
-        <div className="text-center">
-          <h2 className="text-4xl font-bold">95%</h2>
-          <p className="text-zinc-500">Accuracy</p>
-        </div>
-
-        <div className="text-center">
-          <h2 className="text-4xl font-bold">24/7</h2>
-          <p className="text-zinc-500">AI Interviews</p>
-        </div>
-
-      </section>
-    </main>
-  );
+{
+  "name": "github-health-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lucide-react": "^0.400.0",
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
 }
+
