@@ -1,26 +1,71 @@
-{
-  "name": "github-health-tracker",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "lucide-react": "^0.400.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.0",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "vite": "^5.2.11"
-  }
-}
+
+    <nav className="flex justify-between items-center py-6">
+      <h1 className="text-3xl font-bold">
+        GitHire AI
+      </h1>
+
+      <button
+        onClick={handleLogin}
+        className="bg-white text-black px-5 py-2 rounded-xl font-semibold"
+      >
+        Login with GitHub
+      </button>
+    </nav>
+
+    <section className="py-24 text-center">
+      <h1 className="text-6xl font-bold mb-6">
+        AI Mock Interviews From Your GitHub Projects
+      </h1>
+
+      <p className="text-gray-400 text-xl max-w-3xl mx-auto">
+        Connect GitHub, analyze repositories, generate
+        personalized interview questions, receive AI feedback,
+        and improve your chances of landing developer jobs.
+      </p>
+
+      <button
+        onClick={handleLogin}
+        className="mt-10 bg-white text-black px-8 py-4 rounded-xl text-lg font-bold"
+      >
+        Start Free
+      </button>
+    </section>
+
+    <section className="grid md:grid-cols-3 gap-6 pb-24">
+
+      <div className="border border-gray-800 p-6 rounded-2xl">
+        <h3 className="text-2xl font-bold mb-3">
+          GitHub Analysis
+        </h3>
+
+        <p className="text-gray-400">
+          Analyze repositories, commits,
+          README files and tech stacks.
+        </p>
+      </div>
+
+      <div className="border border-gray-800 p-6 rounded-2xl">
+        <h3 className="text-2xl font-bold mb-3">
+          AI Interviews
+        </h3>
+
+        <p className="text-gray-400">
+          Generate personalized technical
+          interview questions instantly.
+        </p>
+      </div>
+
+      <div className="border border-gray-800 p-6 rounded-2xl">
+        <h3 className="text-2xl font-bold mb-3">
+          Smart Feedback
+        </h3>
+
+        <p className="text-gray-400">
+          Get scores, strengths,
+          weaknesses and recommendations.
+        </p>
+      </div>
+
+    </section>
+  </div>
+</main>
